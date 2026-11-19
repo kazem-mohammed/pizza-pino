@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PIZZA PINO — 10 Design Concepts</title>
+<style>
+  :root{
+    --burgundy:#741D24; --red:#B6282E; --charcoal:#171211; --cream:#F4EBDD;
+    --gold:#C49A59; --wood:#69432E; --ink:#100C0B; --line:rgba(196,154,89,.22);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#0d0a09;color:var(--cream);font:15px/1.6 "Inter","Segoe UI",Arial,sans-serif}
+  header{padding:clamp(2.5rem,6vw,5rem) 1.5rem 1rem;text-align:center;border-bottom:1px solid var(--line)}
+  header h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(1.8rem,4vw,3rem);margin:0 0 .4rem;letter-spacing:.06em}
+  header p{color:rgba(244,235,221,.6);max-width:70ch;margin:.4rem auto 0}
+  .badge{display:inline-block;margin-top:1rem;padding:.4em 1em;border:1px solid var(--line);border-radius:100px;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:1.4rem;padding:clamp(1.5rem,4vw,3rem);max-width:1400px;margin:0 auto}
+  .card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#151110;display:flex;flex-direction:column}
+  .card.win{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold),0 20px 60px rgba(196,154,89,.15)}
+  .mock{height:170px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:1.2rem}
+  .mock .m-eyebrow{font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;opacity:.85}
+  .mock .m-title{font-size:1.5rem;line-height:1.1;margin:.25rem 0 .5rem}
+  .mock .m-sub{font-size:.72rem;opacity:.7;max-width:32ch}
+  .mock .m-btns{display:flex;gap:.5rem;margin-top:.7rem}
+  .mock .m-btn{font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;padding:.5em 1em;border-radius:100px}
+  .mock .m-nav{position:absolute;top:.7rem;left:1.2rem;right:1.2rem;display:flex;gap:.5rem;font-size:.55rem;letter-spacing:.15em;opacity:.6;text-transform:uppercase}
+  .mock .m-swatch{position:absolute;bottom:.8rem;right:1rem;display:flex;gap:4px}
+  .mock .m-swatch i{width:14px;height:14px;border-radius:50%;display:block;border:1px solid rgba(255,255,255,.15)}
+  .body{padding:1.1rem 1.2rem 1.3rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+  .body h2{margin:0;font-family:Georgia,serif;font-weight:400;font-size:1.15rem}
+  .body .no{color:var(--gold);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase}
+  .body ul{margin:.2rem 0 0;padding-left:1.1rem;color:rgba(244,235,221,.72);font-size:.82rem}
+  .body li{margin:.2rem 0}
+  .score{margin-top:auto;padding-top:.7rem;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;font-size:.8rem}
+  .score b{color:var(--gold);font-size:1.05rem}
+  .rank{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(244,235,221,.5)}
+  footer{padding:2rem 1.5rem 3rem;text-align:center;color:rgba(244,235,221,.45);font-size:.8rem;border-top:1px solid var(--line)}
+  a{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Design Exploration</span>
+  <h1>PIZZA PINO — 10 Design Concepts</h1>
+  <p>Ten distinct directions (not just colour variants), each scored against weighted criteria: Brand 20%, UI/UX 20%, Menu Usability 15%, Visual 15%, International 10%, 3D &amp; Animation 10%, Performance 10%. The winner is merged into the Final Signature Design.</p>
+</header>
+
+<div class="grid">
+
+  <!-- 01 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#F4EBDD,#e7d8c2);color:#3a2a22">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#B6282E">Trattoria Classica</div>
+      <div class="m-title" style="font-family:Georgia,serif">Handmade, Every Day</div>
+      <div class="m-sub">Light, airy trattoria feel with warm cream paper textures.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#B6282E;color:#fff">Menu</span><span class="m-btn" style="border:1px solid #B6282E;color:#B6282E">Visit</span></div>
+      <div class="m-swatch"><i style="background:#F4EBDD"></i><i style="background:#B6282E"></i><i style="background:#69432E"></i><i style="background:#C49A59"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 01</span>
+      <h2>Classic Trattoria</h2>
+      <ul><li>Light cream backgrounds, warm wood accents</li><li>Centered editorial hero, serif display</li><li>Simple two-column menu list</li><li>Minimal motion, fast &amp; accessible</li></ul>
+      <div class="score"><span class="rank">Rank 8</span><b>7.65</b></div>
+    </div>
+  </article>
+
+  <!-- 02 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#8f1f26,#5c1419);color:#fff">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#F4C77A">Rosso Vivo</div>
+      <div class="m-title" style="font-family:Georgia,serif">Bold. Red. Italian.</div>
+      <div class="m-sub">High-energy red palette with bold sans-serif headlines.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#F4EBDD;color:#8f1f26">Menu</span><span class="m-btn" style="border:1px solid #F4EBDD;color:#fff">Visit</span></div>
+      <div class="m-swatch"><i style="background:#B6282E"></i><i style="background:#741D24"></i><i style="background:#F4EBDD"></i><i style="background:#C49A59"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 02</span>
+      <h2>Rosso Vivo</h2>
+      <ul><li>Saturated Italian red identity</li><li>Bold geometric type, sticker badges</li><li>Card grid menu with big prices</li><li>Playful hover animations</li></ul>
+      <div class="score"><span class="rank">Rank 7</span><b>7.80</b></div>
+    </div>
+  </article>
+
+  <!-- 03 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(180deg,#0e0b0a,#241a18);color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#C49A59">Fine Dining Noir</div>
+      <div class="m-title" style="font-family:Georgia,serif">An Evening in Italy</div>
+      <div class="m-sub">Deep charcoal, candlelit warmth, gold hairlines.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#C49A59;color:#241a18">Reserve</span><span class="m-btn" style="border:1px solid #C49A59;color:#F4EBDD">Menu</span></div>
+      <div class="m-swatch"><i style="background:#171211"></i><i style="background:#741D24"></i><i style="background:#C49A59"></i><i style="background:#F4EBDD"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 03</span>
+      <h2>Dark Fine Dining</h2>
+      <ul><li>Charcoal canvas with warm rim-lighting</li><li>Elegant serif, generous whitespace</li><li>Menu as a “tasting list” with gold rules</li><li>Subtle fade-ins, restrained motion</li></ul>
+      <div class="score"><span class="rank">Rank 2</span><b>8.35</b></div>
+    </div>
+  </article>
+
+  <!-- 04 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#69432E,#3d2619);color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#E6C489">Osteria Rustica</div>
+      <div class="m-title" style="font-family:Georgia,serif">From Our Wood Oven</div>
+      <div class="m-sub">Rustic wood, chalkboard textures, hand-drawn marks.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#F4EBDD;color:#69432E">Menu</span><span class="m-btn" style="border:1px solid #E6C489;color:#F4EBDD">Visit</span></div>
+      <div class="m-swatch"><i style="background:#69432E"></i><i style="background:#C49A59"></i><i style="background:#F4EBDD"></i><i style="background:#741D24"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 04</span>
+      <h2>Osteria Rustica</h2>
+      <ul><li>Wood-grain surfaces, chalkboard menu</li><li>Handwritten-style accents</li><li>Textured, tactile product cards</li><li>Warm, cosy motion</li></ul>
+      <div class="score"><span class="rank">Rank 9</span><b>7.55</b></div>
+    </div>
+  </article>
+
+  <!-- 05 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#F4EBDD,#efe3d0);color:#171211">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#741D24">Bottega Moderna</div>
+      <div class="m-title" style="font-family:Arial,sans-serif;font-weight:800">Pizza, Reimagined.</div>
+      <div class="m-sub">Swiss-grid minimalism, oversized type, lots of air.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#171211;color:#F4EBDD">Menu</span><span class="m-btn" style="border:1px solid #171211;color:#171211">Visit</span></div>
+      <div class="m-swatch"><i style="background:#F4EBDD"></i><i style="background:#171211"></i><i style="background:#B6282E"></i><i style="background:#C49A59"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 05</span>
+      <h2>Modern Bottega</h2>
+      <ul><li>Editorial grid, tight typographic scale</li><li>Big product photography blocks</li><li>List/grid toggle for menu</li><li>Crisp micro-interactions</li></ul>
+      <div class="score"><span class="rank">Rank 6</span><b>7.95</b></div>
+    </div>
+  </article>
+
+  <!-- 06 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#1c1512,#2b1f19);color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#C49A59">Editoriale</div>
+      <div class="m-title" style="font-family:Georgia,serif;font-style:italic">The Story of a Kitchen</div>
+      <div class="m-sub">Magazine-style storytelling, large pull quotes.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#C49A59;color:#1c1512">Read</span><span class="m-btn" style="border:1px solid #C49A59;color:#F4EBDD">Menu</span></div>
+      <div class="m-swatch"><i style="background:#1c1512"></i><i style="background:#69432E"></i><i style="background:#C49A59"></i><i style="background:#F4EBDD"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 06</span>
+      <h2>Editorial</h2>
+      <ul><li>Long-form narrative sections</li><li>Asymmetric image/text rhythm</li><li>Menu presented as an article</li><li>Scroll-linked reading progress</li></ul>
+      <div class="score"><span class="rank">Rank 5</span><b>8.10</b></div>
+    </div>
+  </article>
+
+  <!-- 07 -->
+  <article class="card">
+    <div class="mock" style="background:radial-gradient(600px 200px at 30% 20%,#8f1f26,#0d0a09);color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#E6C489">Neon Napoli</div>
+      <div class="m-title" style="font-family:Arial,sans-serif;font-weight:800;text-shadow:0 0 18px rgba(196,154,89,.6)">LATE NIGHT SLICE</div>
+      <div class="m-sub">Neon glow, nightlife energy, dark + magenta.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#B6282E;color:#fff">Order</span><span class="m-btn" style="border:1px solid #C49A59;color:#F4EBDD">Menu</span></div>
+      <div class="m-swatch"><i style="background:#0d0a09"></i><i style="background:#B6282E"></i><i style="background:#C49A59"></i><i style="background:#741D24"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 07</span>
+      <h2>Neon Napoli</h2>
+      <ul><li>Glow effects, gradient accents</li><li>Bold display type, night mode</li><li>Fast-food style menu tiles</li><li>Animated glows &amp; marquees</li></ul>
+      <div class="score"><span class="rank">Rank 10</span><b>7.40</b></div>
+    </div>
+  </article>
+
+  <!-- 08 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(180deg,#120d0c 40%,#000);color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#C49A59">Cinematico</div>
+      <div class="m-title" style="font-family:Georgia,serif;font-size:1.8rem">A Film About Food</div>
+      <div class="m-sub">Full-bleed imagery, letterbox framing, slow fades.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#F4EBDD;color:#120d0c">Play</span><span class="m-btn" style="border:1px solid #C49A59;color:#F4EBDD">Menu</span></div>
+      <div class="m-swatch"><i style="background:#120d0c"></i><i style="background:#741D24"></i><i style="background:#C49A59"></i><i style="background:#F4EBDD"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 08</span>
+      <h2>Cinematic</h2>
+      <ul><li>Letterbox hero, Ken Burns imagery</li><li>Scene-based section transitions</li><li>Menu revealed like film credits</li><li>Slow, dramatic motion</li></ul>
+      <div class="score"><span class="rank">Rank 4</span><b>8.25</b></div>
+    </div>
+  </article>
+
+  <!-- 09 -->
+  <article class="card">
+    <div class="mock" style="background:linear-gradient(135deg,#f7f1e6,#e9ddc8);color:#1b2a2a">
+      <div class="m-nav">PIZZA PINO · MENU · STORY</div>
+      <div class="m-eyebrow" style="color:#0e7c66">Welcome · Bienvenue · أهلاً</div>
+      <div class="m-title" style="font-family:Georgia,serif">A Menu for Everyone</div>
+      <div class="m-sub">Multilingual-first, icon-led, tourist friendly.</div>
+      <div class="m-btns"><span class="m-btn" style="background:#0e7c66;color:#fff">Menu</span><span class="m-btn" style="border:1px solid #0e7c66;color:#0e7c66">🌐 Language</span></div>
+      <div class="m-swatch"><i style="background:#f7f1e6"></i><i style="background:#0e7c66"></i><i style="background:#C49A59"></i><i style="background:#B6282E"></i></div>
+    </div>
+    <div class="body">
+      <span class="no">Concept 09</span>
+      <h2>Global Tourist</h2>
+      <ul><li>Prominent language selector with flags</li><li>Icon-led categories, allergy-aware layout</li><li>Search-first menu experience</li><li>RTL/LTR built in from the start</li></ul>
+      <div class="score"><span class="rank">Rank 3</span><b>8.28</b></div>
+    </div>
+  </article>
+
+  <!-- 10 — WINNER -->
+  <article class="card win">
+    <div class="mock" style="background:radial-gradient(700px 260px at 75% 15%,rgba(182,40,46,.35),transparent 60%),radial-gradient(500px 240px at 10% 85%,rgba(196,154,89,.22),transparent 65%),#100c0b;color:#F4EBDD">
+      <div class="m-nav">PIZZA PINO · MENU · 3D · GALLERY</div>
+      <div class="m-eyebrow" style="color:#C49A59">Signature Fusion</div>
+      <div class="m-title" style="font-family:Georgia,serif;background:linear-gradient(135deg,#E6C489,#8C6A34);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">A Taste of Italy in Port Said</div>
+      <div class="m-sub">Dark cinematic luxury + 3D interaction + 120+ languages.</div>
+      <div class="m-btns"><span class="m-btn" style="background:linear-gradient(135deg,#E6C489,#8C6A34);color:#2a1d0c">Explore Menu</span><span class="m-btn" style="border:1px solid #C49A59;color:#F4EBDD">Discover</span></div>
+      <div class="m-swatch"><i style="background:#741D24"></i><i style="background:#171211"></i><i style="background:#C49A59"></i><i style="background:#F4EBDD"></i></div>
+    </div>
+    <div class="body">
+      <span class="no" style="color:#E6C489">★ Concept 10 — Winner</span>
+      <h2>Signature Fusion Experience</h2>
+      <ul><li>Cinematic hero + Ken Burns + warm lighting</li><li>Heritage gold dividers &amp; premium serif</li><li>3D tilt cards, parallax, floating dishes</li><li>Advanced multilingual search &amp; selector</li><li>Editorial story layout, dark fine-dining palette</li></ul>
+      <div class="score"><span class="rank">Selected</span><b>9.25</b></div>
+    </div>
+  </article>
+
+</div>
+
+<footer>
+  Merged elements: Heritage Luxury (gold rules, logo) · Dark Fine Dining (dark canvas, contrast) · Editorial (storytelling) · Cinematic (hero, Ken Burns) · Global Tourist (search, language selector) · 3D Immersive (tilt, parallax, floating food).<br>
+  Final site: <a href="index.html">index.html</a>
+</footer>
+</body>
+</html>

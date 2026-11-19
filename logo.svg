@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-label="PIZZA PINO">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6C489"/>
+      <stop offset="0.5" stop-color="#C49A59"/>
+      <stop offset="1" stop-color="#8C6A34"/>
+    </linearGradient>
+  </defs>
+
+  <!-- top rule -->
+  <rect x="0" y="24" width="72" height="1.4" fill="url(#gold)"/>
+  <rect x="288" y="24" width="72" height="1.4" fill="url(#gold)"/>
+
+  <!-- wordmark -->
+  <text x="180" y="70" text-anchor="middle"
+        font-family="Marcellus, 'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="46" letter-spacing="10" fill="#F4EBDD">PIZZA</text>
+  <text x="180" y="108" text-anchor="middle"
+        font-family="Marcellus, 'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="30" letter-spacing="16" fill="url(#gold)">PINO</text>
+
+  <!-- bottom ornament -->
+  <rect x="150" y="118" width="60" height="1.4" fill="url(#gold)" opacity="0.7"/>
+</svg>

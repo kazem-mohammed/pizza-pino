@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js");</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#171211">
+
+<!-- ===================== SEO ===================== -->
+<title>PIZZA PINO — Italian Kitchen &amp; Pizzeria in Port Said</title>
+<meta name="description" content="PIZZA PINO — authentic Italian kitchen and pizzeria in Port Said, Egypt. Wood-fired pizza, fresh pasta, seafood and desserts. Explore our multilingual menu.">
+<meta name="keywords" content="Pizza Pino, Italian restaurant, Port Said, pizza, pasta, seafood, Egypt, بيتزا بينو, بورسعيد, مطعم إيطالي">
+<meta name="author" content="PIZZA PINO">
+<link rel="canonical" href="./index.html">
+
+<!-- ===================== Open Graph / Twitter ===================== -->
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="PIZZA PINO">
+<meta property="og:title" content="PIZZA PINO — Italian Kitchen &amp; Pizzeria">
+<meta property="og:description" content="A taste of Italy in Port Said. Wood-fired pizza, fresh pasta and authentic Italian recipes.">
+<meta property="og:image" content="hero.jpg">
+<meta property="og:image:alt" content="PIZZA PINO signature dish">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PIZZA PINO — Italian Kitchen &amp; Pizzeria">
+<meta name="twitter:description" content="A taste of Italy in Port Said.">
+<meta name="twitter:image" content="hero.jpg">
+
+<!-- ===================== Icons ===================== -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="logo.png">
+
+<!-- ===================== Fonts ===================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap">
+
+<!-- ===================== Styles ===================== -->
+<link rel="stylesheet" href="style.css">
+
+<!-- ===================== Structured data (only reliable fields) ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "PIZZA PINO",
+  "description": "Italian kitchen and pizzeria in Port Said, Egypt. Wood-fired pizza, fresh pasta, seafood and desserts.",
+  "servesCuisine": ["Italian", "Pizza"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "23 July & Gomhoria St.",
+    "addressLocality": "Port Said",
+    "addressCountry": "EG"
+  },
+  "telephone": "+20 66 320 8949",
+  "image": "hero.jpg",
+  "url": "./index.html"
+}
+</script>
+</head>
+<body dir="ltr">
+
+<!-- ===================== Preloader ===================== -->
+<div id="preloader" role="status" aria-live="polite" aria-label="Loading">
+  <div class="pre-inner">
+    <div class="pre-logo">PIZZA <span>PINO</span></div>
+    <div class="pre-line"><i></i></div>
+    <div class="pre-tag" data-i18n="tagline">Italian Kitchen &amp; Pizzeria</div>
+  </div>
+</div>
+
+<!-- ===================== Reading progress ===================== -->
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- ===================== Header ===================== -->
+<header class="header" id="header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="PIZZA PINO — Italian Kitchen &amp; Pizzeria">
+      <img src="logo.svg" alt="" aria-hidden="true" width="138" height="46">
+      <span class="brand-text">
+        <b>PIZZA PINO</b>
+        <small data-i18n="tagline">Italian Kitchen &amp; Pizzeria</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#menu" data-i18n="nav_menu">Menu</a>
+      <a href="#showcase" data-i18n="view_3d">Interactive 3D view</a>
+      <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="#about" data-i18n="nav_about">Our Story</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="lang-trigger" id="langTrigger" type="button" aria-haspopup="dialog">
+        <span class="sr-only" data-i18n="lang_title">Choose your language</span>
+        <span class="flag" id="langFlag" aria-hidden="true">🇬🇧</span>
+        <span class="code" id="langCode">English</span>
+        <span aria-hidden="true" style="display:inline-flex;width:14px;height:14px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+        </span>
+      </button>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== Mobile nav ===================== -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <a href="#menu" data-i18n="nav_menu">Menu</a>
+  <a href="#showcase" data-i18n="view_3d">Interactive 3D view</a>
+  <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+  <a href="#about" data-i18n="nav_about">Our Story</a>
+  <a href="#contact" data-i18n="nav_contact">Contact</a>
+</nav>
+
+<main id="top">
+
+  <!-- =========================================================
+       HERO — cinematic
+       ========================================================= -->
+  <section class="hero" aria-label="Welcome">
+    <div class="hero-bg">
+      <img src="hero.jpg" alt="A signature PIZZA PINO dish" width="1600" height="1067" fetchpriority="high" decoding="async">
+    </div>
+    <div class="hero-veil"></div>
+    <div class="hero-grain"></div>
+
+    <div class="floaters" aria-hidden="true">
+      <div class="floater f1"><img src="product-1.jpg" alt="" width="200" height="200" loading="lazy"></div>
+      <div class="floater f2"><img src="product-2.jpg" alt="" width="200" height="200" loading="lazy"></div>
+      <div class="floater f3"><img src="product-3.jpg" alt="" width="200" height="200" loading="lazy"></div>
+    </div>
+
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="eyebrow" data-i18n="tagline">Italian Kitchen &amp; Pizzeria</span>
+        <h1>
+          <span data-i18n="hero_title">A Taste of Italy in Port Said</span>
+          <span class="accent">PIZZA PINO</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero_sub">Wood-fired pizza, fresh pasta and authentic Italian recipes, served with warm hospitality.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn--gold" href="#menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 17H3L12 3z"/></svg>
+            <span data-i18n="cta_menu">Explore Our Menu</span>
+          </a>
+          <a class="btn btn--ghost" href="#about">
+            <span data-i18n="cta_discover">Discover Our Restaurant</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div><b>11</b><span data-i18n="nav_menu">Menu</span></div>
+          <div><b>120+</b><span data-i18n="lang_current">Language</span></div>
+          <div><b>Port Said</b><span data-i18n="info_address">Address</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span data-i18n="scroll">Scroll</span>
+      <i></i>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       STORY / ABOUT
+       ========================================================= -->
+  <section class="section section--warm" id="about">
+    <div class="wrap">
+      <div class="story">
+        <div class="story-media reveal">
+          <div class="frame tilt-el">
+            <img src="restaurant.jpg" alt="PIZZA PINO" width="1400" height="788" loading="lazy" decoding="async">
+          </div>
+          <div class="badge" aria-hidden="true">
+            <span>Pizza</span>
+            <b>PINO</b>
+            <span>Italiano</span>
+          </div>
+        </div>
+
+        <div class="story-body reveal d1">
+          <span class="eyebrow" data-i18n="nav_about">Our Story</span>
+          <h2 data-i18n="about_title">Our Story</h2>
+          <p data-i18n="about_p1">PIZZA PINO brings the soul of Italy to Port Said: hand-stretched dough, rich tomato sauce and mozzarella, baked to a perfect golden finish.</p>
+          <p data-i18n="about_p2">From wood-fired pizza to fresh pasta and seafood, every plate is prepared with care and served in a warm, welcoming atmosphere.</p>
+          <ul class="story-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/></svg><span data-i18n="hero_sub">Wood-fired pizza, fresh pasta and authentic Italian recipes, served with warm hospitality.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19c0-7 5-12 14-13 0 9-5 14-12 14H5z"/><path d="M5 19c3-3 6-5 9-6"/></svg><span data-i18n="menu_sub">Browse by category or search for your favourite dish.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       MENU
+       ========================================================= -->
+  <section class="section section--dark" id="menu">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="nav_menu">Menu</span>
+        <h2 data-i18n="menu_title">Our Menu</h2>
+        <p data-i18n="menu_sub">Browse by category or search for your favourite dish.</p>
+        <div class="ornament" aria-hidden="true"><span class="dot"></span></div>
+      </div>
+    </div>
+
+    <!-- sticky toolbar -->
+    <div class="menu-toolbar">
+      <div class="wrap inner">
+        <div class="search-row">
+          <span class="search-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+          </span>
+          <input type="search" id="menuSearch" autocomplete="off"
+                 data-i18n-ph="search_ph" data-i18n-aria="search_ph"
+                 placeholder="Search dishes, ingredients, categories…" aria-label="Search the menu">
+          <span class="search-count" id="searchCount" aria-hidden="true"></span>
+          <button class="search-clear" id="searchClear" type="button" data-i18n-aria="close" aria-label="Clear search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+        <div class="cat-nav" id="catNav" role="group" aria-label="Menu categories"></div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div id="menuHost" aria-live="polite"></div>
+      <div class="price-note reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        <span data-i18n="review_note">Some prices are being confirmed with the restaurant.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       3D SHOWCASE
+       ========================================================= -->
+  <section class="section section--deep" id="showcase">
+    <div class="wrap">
+      <div class="showcase">
+        <div class="stage reveal" id="stage">
+          <div class="stage-glow" aria-hidden="true"></div>
+          <div class="tilt" id="tiltDish">
+            <div class="tilt-ring" aria-hidden="true"></div>
+            <img src="product-1.jpg" alt="PIZZA PINO signature dish — interactive tilt view" width="640" height="640" loading="lazy" decoding="async">
+          </div>
+          <div class="stage-hint">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><rect x="8" y="3" width="8" height="18" rx="4"/><path d="M12 7v3"/></svg>
+            <span data-i18n="hint_3d">Move your cursor to tilt the dish</span>
+          </div>
+        </div>
+
+        <div class="showcase-body reveal d1">
+          <span class="eyebrow" data-i18n="view_3d">Interactive 3D view</span>
+          <h2 data-i18n="gallery_title">From Our Kitchen</h2>
+          <p data-i18n="gallery_sub">A glimpse of PIZZA PINO.</p>
+          <ul class="showcase-feats">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/></svg><span data-i18n="hint_3d">Move your cursor to tilt the dish</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/></svg><span data-i18n="details">Details</span></li>
+          </ul>
+          <p style="font-size:.82rem;color:var(--text-mute);margin-top:1.2rem">
+            Note: only a single photograph per dish is available, so this is a 3D tilt &amp; parallax effect — not a true 360° photographic view.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       GALLERY
+       ========================================================= -->
+  <section class="section section--dark" id="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="nav_gallery">Gallery</span>
+        <h2 data-i18n="gallery_title">From Our Kitchen</h2>
+        <p data-i18n="gallery_sub">A glimpse of PIZZA PINO.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="g-item big reveal" tabindex="0" role="button" aria-label="Open image">
+          <img src="hero.jpg" alt="PIZZA PINO signature dish" loading="lazy" decoding="async">
+          <span class="cap">PIZZA PINO</span>
+        </div>
+        <div class="g-item reveal d1" tabindex="0" role="button" aria-label="Open image">
+          <img src="product-1.jpg" alt="PIZZA PINO dish" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item reveal d2" tabindex="0" role="button" aria-label="Open image">
+          <img src="product-2.jpg" alt="PIZZA PINO dish" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item reveal d1" tabindex="0" role="button" aria-label="Open image">
+          <img src="product-3.jpg" alt="PIZZA PINO dish" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item wide reveal d2" tabindex="0" role="button" aria-label="Open image">
+          <img src="restaurant.jpg" alt="PIZZA PINO" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item reveal d3" tabindex="0" role="button" aria-label="Open image">
+          <img src="hero-wide.jpg" alt="PIZZA PINO" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item reveal d2" tabindex="0" role="button" aria-label="Open menu page">
+          <img src="menu-page-1.jpg" alt="PIZZA PINO menu page" loading="lazy" decoding="async">
+        </div>
+        <div class="g-item reveal d3" tabindex="0" role="button" aria-label="Open menu page">
+          <img src="menu-page-2.jpg" alt="PIZZA PINO menu page" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       INFO / VISIT
+       ========================================================= -->
+  <section class="section section--warm" id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-i18n="nav_contact">Contact</span>
+        <h2 data-i18n="info_title">Visit Us</h2>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+          <h3 data-i18n="info_address">Address</h3>
+          <p>23 July &amp; Gomhoria St.<br>Port Said, Egypt</p>
+          <div class="links" style="margin-top:.6rem">
+            <a href="https://www.google.com/maps/search/?api=1&query=Pizza+Pino+Port+Said" target="_blank" rel="noopener noreferrer" data-i18n="info_map">Open in Maps</a>
+          </div>
+        </div>
+
+        <div class="info-card reveal d1">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 006 6L15 14l5 2v4a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1z"/></svg></div>
+          <h3 data-i18n="info_phone">Phone</h3>
+          <div class="links">
+            <a href="tel:+20663208949">320 89 49</a>
+            <a href="tel:+20663208812">320 88 12</a>
+          </div>
+        </div>
+
+        <div class="info-card reveal d2">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+          <h3 data-i18n="info_hours">Opening Hours</h3>
+          <p class="review-flag" data-i18n="hours_value">To be confirmed</p>
+        </div>
+
+        <div class="info-card reveal d3">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <h3 data-i18n="info_follow">Follow Us</h3>
+          <p class="review-flag" data-i18n="hours_value">To be confirmed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logo.svg" alt="PIZZA PINO logo" width="186" height="62" loading="lazy">
+        <div class="brand-name">PIZZA PINO</div>
+        <p data-i18n="hero_sub">Wood-fired pizza, fresh pasta and authentic Italian recipes, served with warm hospitality.</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_quick">Quick Links</h4>
+        <div class="footer-links">
+          <a href="#menu" data-i18n="nav_menu">Menu</a>
+          <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+          <a href="#about" data-i18n="nav_about">Our Story</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_contact">Contact</h4>
+        <div class="footer-links">
+          <a href="https://www.google.com/maps/search/?api=1&query=Pizza+Pino+Port+Said" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 10-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            Port Said, Egypt
+          </a>
+          <a href="tel:+20663208949">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 006 6L15 14l5 2v4a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1z"/></svg>
+            320 89 49
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer_lang">Language</h4>
+        <div class="footer-links">
+          <button type="button" onclick="document.getElementById('langTrigger').click()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg>
+            <span id="footerLang">English</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="row">
+        <span>© <span id="year">2026</span> PIZZA PINO. <span data-i18n="rights">All rights reserved.</span></span>
+        <span class="dev-credit">
+          <span data-i18n="developed_by">Developed by</span>
+          <span class="name">Kazem Salah</span>
+          <span class="sep">·</span>
+          <a href="mailto:kazemsalah77@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            kazemsalah77@gmail.com
+          </a>
+          <span class="sep">·</span>
+          <a href="tel:01115116456">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 006 6L15 14l5 2v4a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1z"/></svg>
+            01115116456
+          </a>
+          <span class="sep">·</span>
+          <a href="https://wa.me/201115116456" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.7 15L2 22l5.2-1.3A10 10 0 1012 2zm0 2a8 8 0 11-4.2 14.8l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0112 4zm-3 4c-.2 0-.5.1-.7.3-.3.3-.8.8-.8 1.9s.8 2.2 1 2.4c.1.2 1.6 2.5 3.9 3.4 1.9.8 2.3.6 2.7.6.4 0 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1 0-.1-.2-.2-.5-.3l-1.7-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.2.2-.3.2-.5.1-.3-.1-1.1-.4-2-1.3-.8-.7-1.3-1.5-1.4-1.8-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3.2-.5s0-.3 0-.5L9.5 8.6C9.3 8.1 9.1 8.2 9 8.2z"/></svg>
+            WhatsApp
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== Back to top ===================== -->
+<button class="to-top" id="toTop" type="button" data-i18n-aria="back_top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<!-- ===================== Toast ===================== -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ===================== Language modal ===================== -->
+<div class="modal" id="langModal" role="dialog" aria-modal="true" aria-labelledby="langTitle">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3 id="langTitle" data-i18n="lang_title">Choose your language</h3>
+      <button class="close" type="button" data-close data-i18n-aria="close" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="lang-search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+      <input class="lang-search" id="langSearch" type="search" autocomplete="off"
+             data-i18n-ph="lang_search" data-i18n-aria="lang_search" placeholder="Search language…" aria-label="Search language">
+    </div>
+    <div class="lang-list" id="langList"></div>
+  </div>
+</div>
+
+<!-- ===================== Product modal ===================== -->
+<div class="modal" id="productModal" role="dialog" aria-modal="true" aria-label="Dish details">
+  <div class="modal-card" id="pmCard"></div>
+</div>
+
+<!-- ===================== Lightbox ===================== -->
+<div class="modal" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <div class="modal-card" style="position:relative">
+    <button class="lb-close" type="button" data-close data-i18n-aria="close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <img id="lbImg" src="hero.jpg" alt="">
+  </div>
+</div>
+
+<!-- ===================== Data + logic ===================== -->
+<script src="menu-data.js"></script>
+<script src="translations.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
